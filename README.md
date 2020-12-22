@@ -1,7 +1,30 @@
+# Fake News Generator
+
+For this project, we wanted to see how easy it would be to generate convincing fake news by training GPT-2 models. We trained these models using articles from The New York Times on the topics of Black Lives Matter, COVID-19, and the 2020 U.S. election. You can find our trained models [here](https://drive.google.com/drive/folders/13xBv1TngYsshuoaZ2vwv1VmCwclc46zx?usp=sharing). This repository also provides a user interface for generating more articles. 
+
+## Download Pre-Requisites
+
+In the root folder, run:
+```
+pip install -r requirements.txt
+pip install flask
+```
+We use Python version 3.7.x to run this project.
+
+## Run User Interface
+
+Download models.zip, decompress it, and place the folder under src. In src, run:
+```
+export FLASK_APP=generate_samples.py
+export FLASK_ENV=development
+flask run
+```
+
+# Reference
 
 Reference:  ["Beginner’s Guide to Retrain GPT-2 (117M) to Generate Custom Text Content"](https://medium.com/@ngwaifoong92/beginners-guide-to-retrain-gpt-2-117m-to-generate-custom-text-content-8bb5363d8b7f)
 
-# gpt-2
+## gpt-2
 
 Code from the paper ["Language Models are Unsupervised Multitask Learners"](https://d4mucfpksywv.cloudfront.net/better-language-models/language-models.pdf).
 
@@ -9,31 +32,31 @@ We have currently released small (117M parameter) and medium (345M parameter) ve
 
 See more details in our [blog post](https://blog.openai.com/better-language-models/).
 
-## Usage
+### Usage
 
 This repository is meant to be a starting point for researchers and engineers to experiment with GPT-2.
 
-### Some caveats
+#### Some caveats
 
 - GPT-2 models' robustness and worst case behaviors are not well-understood.  As with any machine-learned model, carefully evaluate GPT-2 for your use case, especially if used without fine-tuning or in safety-critical applications where reliability is important.
 - The dataset our GPT-2 models were trained on contains many texts with [biases](https://twitter.com/TomerUllman/status/1101485289720242177) and factual inaccuracies, and thus GPT-2 models are likely to be biased and inaccurate as well.
 - To avoid having samples mistaken as human-written, we recommend clearly labeling samples as synthetic before wide dissemination.  Our models are often incoherent or inaccurate in subtle ways, which takes more than a quick read for a human to notice.
 
-### Work with us
+#### Work with us
 
 Please [let us know](mailto:languagequestions@openai.com) if you’re doing interesting research with or working on applications of GPT-2!  We’re especially interested in hearing from and potentially working with those who are studying
 - Potential malicious use cases and defenses against them (e.g. the detectability of synthetic text)
 - The extent of problematic content (e.g. bias) being baked into the models and effective mitigations
 
-## Development
+### Development
 
 See [DEVELOPERS.md](./DEVELOPERS.md)
 
-## Contributors
+### Contributors
 
 See [CONTRIBUTORS.md](./CONTRIBUTORS.md)
 
-## Fine tuning on custom datasets
+### Fine tuning on custom datasets
 
 To retrain GPT-2 117M model on a custom text dataset:
 
@@ -50,19 +73,19 @@ PYTHONPATH=src ./train.py --dataset /path/to/encoded.npz
 
 Make sure `cudnn` is installed. [Some have reported](https://github.com/nshepperd/gpt-2/issues/8) that `train.py` runs without it but has worse memory usage and might OOM.
 
-### Gradient Checkpointing
+#### Gradient Checkpointing
 
 https://github.com/openai/gradient-checkpointing is included to reduce the memory requirements of the model, and can be enabled by `--memory_saving_gradients`. The checkpoints are currently chosen manually (poorly) by just adding layer 10 to the 'checkpoints' collection in model.py. `--memory_saving_gradients` is enabled by default for training the 345M model.
 
-### Validation loss
+#### Validation loss
 
 Set `--val_every` to a number of steps `N > 0`, and "validation" loss against a fixed sample of the dataset will be calculated every N steps to get a better sense of training progress. N around 200 suggested. You can set `--val_dataset` to choose a separate validation dataset, otherwise it defaults to a sample from the train dataset (so not a real cross-validation loss!).
 
-### Optimizer
+#### Optimizer
 
 You can use SGD instead of Adam with `--optimizer sgd`. This also helps conserve memory when training the 345M model. Note: the learning rate needs to be adjusted for SGD, due to not having Adam's gradient normalization (0.0006 seems to be a good number from some experiments).
 
-### Multi gpu (out of date)
+#### Multi gpu (out of date)
 
 To do distributed on multiple GPUs or machines using Horovod:
 
@@ -76,7 +99,7 @@ mpirun -np 4 \
     /home/jovyan/gpt-2/train-horovod.py --dataset encoded.npz
 ```
 
-## GPT-2 samples
+### GPT-2 samples
 
 | WARNING: Samples are unfiltered and may contain offensive content. |
 | --- |
@@ -85,7 +108,7 @@ While we have not yet released GPT-2 itself, you can see some samples from it in
 We show unconditional samples with default settings (temperature 1 and no truncation), with temperature 0.7, and with truncation with top_k 40.
 We show conditional samples, with contexts drawn from `WebText`'s test set, with default settings (temperature 1 and no truncation), with temperature 0.7, and with truncation with top_k 40.
 
-## Citation
+### Citation
 
 Please use the following bibtex entry:
 ```
@@ -96,12 +119,12 @@ Please use the following bibtex entry:
 }
 ```
 
-## Future work
+### Future work
 
 We may release code for evaluating the models on various benchmarks.
 
 We are still considering release of the larger models.
 
-## License
+### License
 
 [MIT](./LICENSE)
