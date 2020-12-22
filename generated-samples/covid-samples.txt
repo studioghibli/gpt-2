@@ -1,4 +1,5 @@
-header:
+
+headline:
 A new bill would require the Federal Aviation Administration to consider a pilot's medical history
 
 article:
@@ -30,7 +31,7 @@ The bill is expected to be passed by the end of the month. The American Civil Li
 
 <|endoftext|>
 
-header:
+headline:
 Coronavirus Briefing
 
 article:
@@ -50,7 +51,7 @@ Federal spending is also shifting from the federal government to states and citi
 
 <|endoftext|>
 
-header:
+headline:
 The United States and China Have Interdicted More Than 2,500 Cases of Coronavirus
 
 article:
@@ -72,7 +73,7 @@ But Chinese officials are determined to make sure the U.S. doesn't have an oppor
 
 <|endoftext|>
 
-header:
+headline:
 The U.S. Supreme Court on Tuesday struck down Ohio law requiring employers to provide health insurance
 
 article:
@@ -100,7 +101,7 @@ The justices, joined by Justice Antonin Scalia, will make a decision on the case
 
 <|endoftext|>
 
-header:
+headline:
 As President Trump and congressional Republicans work out a healthcare deal
 
 article:
@@ -124,7 +125,7 @@ However, the White House on Wednesday said that the president had asked Presiden
 
 <|endoftext|>
 
-header:
+headline:
 A group of researchers has developed a way to detect when a virus or parasite has reached one's bloodstream
 
 article:
@@ -154,7 +155,7 @@ Dr. Blyth said that the findings should help physicians determine if they want t
 
 <|endoftext|>
 
-header:
+headline:
 On Tuesday, a California judge set a date for a preliminary hearing into the Trump University fraud case
 
 article:
@@ -184,7 +185,7 @@ University of California, Berkeley officials said in a news release that their e
 
 <|endoftext|>
 
-header:
+headline:
 We're excited to report the completion of the first ever phase of the National Institutes of Health
 
 article:
@@ -214,7 +215,7 @@ And then the president had to say a few words. And then he walked off the plane.
 
 <|endoftext|>
 
-header:
+headline:
 It's been 2 years since the first Coronavirus Case in the US
 
 article:
@@ -234,7 +235,7 @@ But he said it was important to know if the test was in the right context, and i
 
 <|endoftext|>
 
-header:
+headline:
 The Trump Administration Is Trying Too Hard To Keep Its Governors From Coronavirus
 
 article:
@@ -260,7 +261,7 @@ The Federal Bureau of Investigation is also providing a free test drive for ever
 
 <|endoftext|>
 
-header:
+headline:
 On Politics: A Debate Over the Coronavirus
 
 article:
@@ -294,7 +295,7 @@ Democrats have said that the bill would give an exemption to people who have bee
 
 <|endoftext|>
 
-header:
+headline:
 What Is the Impact of a Coronavirus on the Health of a New York City Child
 
 article:
@@ -324,7 +325,7 @@ Dr. Cohen also said that if the city were to become less reliant on hospitals an
 
 <|endoftext|>
 
-header:
+headline:
 We've Seen Many Deaths in California as a Response to Coronavirus
 
 article:

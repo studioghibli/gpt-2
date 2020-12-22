@@ -1,7 +1,8 @@
+
+headline:
 How Republicans Are Celebrating Biden's Legacy
 
-<|endoftext|>
-
+article:
 You can't have Biden without Biden. It's what you can't have in a president.
 
 At a rally in Brooklyn Wednesday night, Biden told attendees he was "just ready to be President" when he was questioned by the audience about his legacy. "I want to be President of the United States, and I'm ready to be President of the United States," Biden said of his own. Biden, one of the most famous and popular presidents in American history, retired in 1992 after serving five terms as Vice President. He announced his retirement in a speech in his hometown of Beaufort, Florida, on Tuesday.
@@ -22,10 +23,10 @@ He said his family "has a long legacy" of serving in the White House.
 
 <|endoftext|>
 
+headline:
 Why Trump and Biden Will Not Visit Russia in the Years to Come
 
-<|endoftext|>
-
+article:
 This is a classic quote by Robert A. McFarlane, who was chairman of the Joint Chiefs of Staff under President Barack Obama.
 
 "You can never know what you can expect as someone who has gone through his presidency and who has seen the power of the people, the greatness of the people, and how they see the world," McFarlane said in an interview last week. "It's not always about how that presidency ends, but how you bring people together and make the world a better place to live."
@@ -54,10 +55,10 @@ In a statement, the White House spokeswoman, Sarah Huckabee Sanders, said that t
 
 <|endoftext|>
 
+headline:
 Rudy Giuliani Denies He Did Anything Wrong in New ‘Borat’ Movie
 
-<|endoftext|>
-
+article:
 ‘I’m Not Afraid ‘So Long As You’ Will Keep Running ‘For Our President ‘It’s Your Vote, It’s Your Vote’ and You’ll Never Vote ‘The Last ‘Dynasty’ Movie ‘I’m Not Afraid’ So Long As you’ll Keep Running‘For Our President‘You’ll Never Vote’
 
 This was a fairly typical Trump tweetstorm, which he used to attack his own aides and campaign aides in the media for their efforts to cover up evidence of his election-related crimes. The line of attack included a tweet that seemed meant to mock the way Clinton and Trump were portrayed on television.
@@ -76,10 +77,10 @@ This was an attempt to put Trump in a very different light, with a barrage of ne
 
 <|endoftext|>
 
+headline:
 Trump Holds Small Lead in Conservative Kansas, Poll Shows
 
-<|endoftext|>
-
+article:
 But in a special election matchup, voters in the state are divided. Democrats would win the state and Republicans would be in a similar position.
 
 The HuffPost Pollster/Marist poll surveyed 1,002 likely voters in Kansas, including 1,006 registered Republicans and 1,008 likely Democratic voters.
@@ -108,10 +109,10 @@ The poll also found the Republican ticket holds strong support.
 
 <|endoftext|>
 
+headline:
 The Election May Hinge on Pennsylvania. Can the Polls Get the State Right?
 
-<|endoftext|>
-
+article:
 After the last election, there have been multiple reports of the outcome of the gubernatorial race – and the lack of confidence in the electoral process. A new paper by the Pennsylvania Office of Elections found that the majority of Pennsylvania's voters are not willing to consider any outcome of the race.
 
 The Pennsylvania Legislature and the state's House of Representatives have repeatedly refused to consider any election results that could affect their own party. Governor Patrick Corbett has repeatedly refused to consider any election results that could affect his own party. He has even refused to hold a hearing on a proposed state budget.
@@ -130,10 +131,10 @@ The legislature also needs to make sure that the Pennsylvania law is enforced.
 
 <|endoftext|>
 
+headline:
 Supreme Court Bars Curbside Voting in Alabama
 
-<|endoftext|>
-
+article:
 A conservative group has asked the Supreme Court to rule on whether or not it can allow an Alabama court to block a state law that protects gay marriage.
 
 On Thursday, the Supreme Court's 5-4 majority decided whether to hear the case of the plaintiffs in a lawsuit challenging the Alabama law, which allows gay couples to have the right to marry in any state. The case is being considered in the Fifth Circuit Court of Appeals.
@@ -158,10 +159,10 @@ An attorney for the plaintiffs said he would be sending a letter to the court on
 
 <|endoftext|>
 
+headline:
 Trump Issues Order Giving Him More Leeway to Hire and Fire Federal Workers
 
-<|endoftext|>
-
+article:
 At the end of 2012, Republicans were able to win a majority in the House that would have allowed them to override a veto by President Obama on an immigration law that would have sent tens of thousands of undocumented immigrants to the U.S. mainland.
 
 This week, Senate Republicans in Arizona announced that they would vote to override a Senate-passed Republican measure that would have allowed them to fire federal workers if they couldn't provide enough money to pay for services they didn't provide.
@@ -186,10 +187,10 @@ Trump told The Associated Press on Monday that he planned to fight the lawsuit.
 
 <|endoftext|>
 
+headline:
 Parents Are Worried About Schools. Are the Candidates?
 
-<|endoftext|>
-
+article:
 In a recent poll, just 18 percent of respondents said they could not see why they are worried about the state of schools, which has seen a record yearlong record of a large number of low-performing schools and rising graduation rates.
 
 The poll also found that nearly a third of respondents told the New York Times they were worried about the state's schools in 2014.
@@ -212,10 +213,10 @@ It called for a review of all state and local government initiatives to ensure t
 
 <|endoftext|>
 
+headline:
 Debate Preview: There Will Be Muting
 
-<|endoftext|>
-
+article:
 As the election approached, a new president was coming to power. In the past week, a number of experts and pundits have floated the idea that a Trump presidency, with the president-elect's signature campaign promise to nominate a Supreme Court justice and a Supreme Court appointed by the president to fill the vacancy, could be problematic, and potentially disastrous. A president is likely to be able to appoint justices, and they will fill the vacancy through a combination of party nominating conventions and presidential elections.
 
 But a Trump presidency, and the presidency of a woman running for a Senate seat, would not be the only choice. As The Washington Post reports, more than a dozen other members of Congress have filed a complaint with the Obama administration, asking federal judges to overturn a federal judge's ruling to prevent the president from opening a federal gun buyback program in 2015.
@@ -236,10 +237,10 @@ The last Supreme Court justice to serve as a Supreme Court justice was Justice S
 
 <|endoftext|>
 
+headline:
 How the Internet Viewed the Presidential Debate
 
-<|endoftext|>
-
+article:
 Some of the Republican candidates were speaking from their own homes, making their own comments on how the media would be able to identify them.
 
 On Thursday, Sen. James Lankford, R-Okla., was asked if the Republican Party would be able to identify him in the final eight weeks of the campaign. He said he doesn't know.
@@ -262,10 +263,10 @@ Democrats have made it clear that they want to see Trump as the front-runner fro
 
 <|endoftext|>
 
+headline:
 4 Key Biden Moments at the Final Debate
 
-<|endoftext|>
-
+article:
 Biden is the Republican nominee, and that may be why he got such a surprising victory in Florida.
 
 As a young man, Biden became a staunch Republican who often talked about his support for the president and his opposition to the Iran nuclear deal. But he was also a staunch Democrat, and he was the best-educated Republican in the state, even though he voted for Romney.
@@ -292,11 +293,11 @@ The president's decision to make Biden a senator, and his decision not to be a m
 
 <|endoftext|>
 
+headline:
 4 Key Trump Moments at the Final Debate
 
-<|endoftext|>
-
- | A look back at the final presidential debate.
+article:
+A look back at the final presidential debate.
 
 WASHINGTON (AP) — Donald Trump gave the final Republican debate in a series of interviews before heading off on his own campaign Sunday afternoon after he said he would not "cancel" his campaign.
 
@@ -324,10 +325,10 @@ The third presidential debate — which concluded on Sunday night — will be th
 
 <|endoftext|>
 
+headline:
 Democrats Try to Shut Down Senate, Seeking to Stain Barrett Confirmation
 
-<|endoftext|>
-
+article:
 Senate Democrats are also trying to put the Senate's final vote on the filibuster down to two votes, a spokesman for Senate Minority Leader Mitch McConnell Jr. said.
 
 The Senate Minority Leader is urging senators to put the process down to only one vote — or 60 votes.
@@ -352,10 +353,10 @@ In response to a letter from Senate Minority Leader Mitch McConnell Jr. sent Wed
 
 <|endoftext|>
 
+headline:
 Day After Debate, Biden and Trump Amplify Attacks, Seeking an Edge
 
-<|endoftext|>
-
+article:
 A number of Republicans are calling on Obama to resign or face impeachment if he were impeached or convicted of something.
 
 The Republican National Committee chairman, Reince Priebus, said he will be the first to publicly demand Biden resign and the next day the Republican Party would be calling for his impeachment on Day One of the campaign.
@@ -374,34 +375,10 @@ During a press conference Friday, Trump's son, Donald Trump Jr., said his dad kn
 
 <|endoftext|>
 
-‘I voted for a guy named Trump,’ the president said after voting in person in Florida.
-
-<|endoftext|>
-
-Trump's victory has been one of the surprises of his presidential campaign. Now, it is hard to know what he might do to be president again. He has spent the last six years trying to build a coalition that could govern without his influence. His team has been working to build a wall along the southern border with Mexico in hopes of winning a majority in Congress.
-
-He is also trying to make sure his advisers have a sense of what this campaign means for the country. He has been trying to tell his team — and the American public — what they believe. But there are many, many unanswered questions.
-
-Read more from Ruth Marcus's archive, follow her on Twitter or subscribe to her updates on Facebook.<|endoftext|>A new generation of smart phones and tablets are being developed by the likes of Google and Apple, but they're getting more powerful than ever before. For the first time, the smart home is making the world of home use more efficient.
-
-According to a recent report from Bloomberg, the smart home can reduce energy-intensive use of homes by up to 70 percent by 2020, compared with just four years ago. That number is expected to double with more development over the next decade.
-
-By 2028, according to the report, the average home in the U.S. will be worth more than $50 million, but that figure has been projected to double by 2025.
-
-The report predicts that smart homes, which rely heavily on electric motors that are powered by batteries, will be the next generation of home computing power.
-
-The report also cites a study by the National Academies of Sciences, Engineering, and Medicine that suggests a 70 percent reduction in power consumption by 2030 is likely. While that number would be an increase from the current 16 percent, the authors say that the study is optimistic as the data shows that this will be the most efficient generation of power for homes in the nation.
-
-Many of the devices that are already coming to market are already being used by homes all over the country. For example, the United States has more smart homes than it has for years. With the exception of the recently introduced Nexus 7, many of those devices are still using smart TVs.
-
-The report further notes that the devices are being sold at a loss for words. The research group found that the smart home was worth about $18 billion in sales in the first five months of 2016, up from about $7.2 billion in the first quarter of 2016.
-
-<|endoftext|>
-
+headline:
 Huge turnout in New York on first day of early voting.
 
-<|endoftext|>
-
+article:
 More than 80 percent of the total cast in New York is male and a significant proportion of Hispanics, who are voting in large numbers, are female.
 
 A similar trend was observed in other states in 2012. In many states, turnout among the poor has reached levels that were not present on Election Day when Obama won in the White House.
@@ -434,10 +411,10 @@ The Democratic National Committee said the number of registered voters in New Yo
 
 <|endoftext|>
 
+headline:
 Far-Right Groups Are Behind Most U.S. Terrorist Attacks, Report Finds
 
-<|endoftext|>
-
+article:
 In the wake of the terrorist attacks of Sept. 11, 2001, the right-wing organizations behind those attacks focused their attention on a particular group of people — the Muslims who are most critical of the administration — and took the opportunity to attack Americans, calling it "radical Islamic terrorism."
 
 But according to a report released this week by the State Department, the "Muslim Brotherhood is the most dangerous group of people who support and participate in the U.S. government" while the president and his administration are at it, and they are, in fact, responsible for the attacks of September 11.
@@ -456,10 +433,10 @@ The report also found that the Muslim Brotherhood has been involved in the attac
 
 <|endoftext|>
 
+headline:
 At Dueling Rallies, Campaigns Present Starkly Different Visions on Virus
 
-<|endoftext|>
-
+article:
 In addition to the recent news about the virus and virus-powered vehicles that were being used to fight off the virus, there are a number of other developments that have made the campaign a little more complex.
 
 In part, this is because the campaign has been set up in a similar manner to the one that's been used in the past. In order to run an actual campaign with a virus-resistant vehicle, it would have to be done with a virus-resistant version of the vehicle itself.
@@ -477,69 +454,3 @@ And that's what they're going to do: they're setting up a database and they also
 The second thing that they've done is set up a campaign with a virus-resistant virus that has not been run on the virus-resistant virus. They want to have a virus-resistant vaccine that they would use on the virus-resistant version. So they send that virus-resistant vaccine to the campaign.
 
 The campaign also has the option for each campaign to have at least one virus-resistant virus-resistant vehicle. That includes virus-resistant vehicle-specific vaccine that they would use to run the campaign.
-
-<|endoftext|>
-
-While Her Father Rails Against ‘Idiot’ Scientists, Ivanka Trump Talks Ice Cream
-
-<|endoftext|>
-
-
-
-<|endoftext|>
-
-Democrats Hope 2020 Is the Year They Flip the Texas House
-
-<|endoftext|>
-
-
-
-<|endoftext|>
-
-Why Trump Can’t Take Red Counties in North Carolina for Granted
-
-<|endoftext|>
-
-
-
-<|endoftext|>
-
-In Miami-Dade County, Younger Cuban Voters Offer Opening for Trump
-
-<|endoftext|>
-
-
-
-<|endoftext|>
-
-Infection of Pence Aides Raises New Questions About Trump’s Virus Response
-
-<|endoftext|>
-
-
-
-<|endoftext|>
-
-Georgia, Once Reliably Red, Is Suddenly a Battleground. What Happened?
-
-<|endoftext|>
-
-
-
-<|endoftext|>
-
-Biden, in Sign of Confidence, Will Visit Iowa in Race’s Final Days
-
-<|endoftext|>
-
-
-
-<|endoftext|>
-
-Are You Having Issues With Your Mail-In Ballot?
-
-<|endoftext|>
-
-
-
-<|endoftext|>

@@ -1,4 +1,5 @@
-header:
+
+headline:
 Alabama man accused of shooting a black man while he sat in a back seat of a pickup truck
 
 article:
@@ -12,7 +13,7 @@ The man, identified only by the police as Derek Johnson, was driving drunk in do
 
 <|endoftext|>
 
-header:
+headline:
 Trump administration has taken steps to bolster police departments
 
 article:
@@ -26,7 +27,7 @@ It was not immediately clear who, or what, was involved in the killing of Mr. Fl
 
 <|endoftext|>
 
-header:
+headline:
 The latest in a series of high-profile firings of Black employees and activists by the Trump White House
 
 article:
@@ -42,7 +43,7 @@ One of Mr. McGraw's closest aides, Robert Kelner, was fired last week after a co
 
 <|endoftext|>
 
-header:
+headline:
 The New York Times Opens Pandora's Box With Its Op-Ed … That Transforms Racism
 
 article:
@@ -66,7 +67,7 @@ From the Times' office at George Mason University and its offices on the grounds
 
 <|endoftext|>
 
-header:
+headline:
 The New York Times is launching an investigation into allegations that it promoted white nationalist views as fact
 
 article:
@@ -114,7 +115,7 @@ The Times is now under fire for appearing in a video that was edited out of the 
 
 <|endoftext|>
 
-header:
+headline:
 The latest in a series of protests against police brutality is set to draw a record crowd.
 
 article:
@@ -148,7 +149,7 @@ About 20 people were arrested during the night, including two teenagers and one 
 
 <|endoftext|>
 
-header:
+headline:
 Rockefeller Center Shooting Is Not a Reason to Dismantle Police
 
 article:
@@ -176,7 +177,7 @@ After the video of the shooting was shown to protesters, McFaul said he felt the
 
 <|endoftext|>
 
-header:
+headline:
 In March, a group of Somali-Americans gathered outside the White House to protest police killings of unarmed black men
 
 article:
@@ -210,7 +211,7 @@ In a statement, Chief W.H. Palmer said he had received an email on December 12 f
 
 <|endoftext|>
 
-header:
+headline:
 Texas Demands Removal of Confederate Monument From Public Space
 
 article:
@@ -236,7 +237,7 @@ Members of The National Guard had to break up a rally on Capitol Hill that was b
 
 <|endoftext|>
 
-header:
+headline:
 The University of California at Berkeley is facing mounting criticism for a controversial decision to remove a Confederate battle flag from its building
 
 article:
@@ -260,7 +261,7 @@ On Wednesday morning, Berkeley Mayor Gavin Newsom announced a plan that would re
 
 <|endoftext|>
 
-header:
+headline:
 The University of Colorado System's System Diversity Program is Being Revived
 
 article:
@@ -294,7 +295,7 @@ The education curriculum standards are aimed at reducing the number and level of
 
 <|endoftext|>
 
-header:
+headline:
 A former White House intern and activist is facing felony charges after she posted a racist message on social media
 
 article:
@@ -316,7 +317,7 @@ The vice president said that Mr. Trump “has not been perfect — and in fact, 
 
 <|endoftext|>
 
-header:
+headline:
 A group of about 200 demonstrators held a sit-in outside the White House on Tuesday
 
 article:
@@ -353,5 +354,3 @@ In a tweet, he said, “Ralliance for white victims! Racism, division and fear! 
 On Tuesday morning, the White House police chief took to Twitter to condemn “racist, anti-Semitic, and hateful statements” leveled against protesters who were holding a sit-in outside the main Black Lives Matter demonstration in the city. It sparked a wave of fury amid an angry response from the President himself.
 
 In a series of tweets, Trump wrote: “You have never been so sick and tired of being called a terrorist.”
-
-<|endoftext|
