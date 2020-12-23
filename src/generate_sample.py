@@ -38,7 +38,7 @@ def unconditional_sample(
         tf.set_random_seed(seed)
 
         output = sample.sample_sequence(
-            hparams=hparams, length=length,
+            hparams=hparams, length=int(length),
             start_token=enc.encoder['<|endoftext|>'],
             batch_size=batch_size,
             temperature=temperature, top_k=top_k, top_p=top_p
@@ -84,7 +84,7 @@ def conditional_sample(
         np.random.seed(seed)
         tf.set_random_seed(seed)
         output = sample.sample_sequence(
-            hparams=hparams, length=length,
+            hparams=hparams, length=int(length),
             context=context,
             batch_size=batch_size,
             temperature=temperature, top_k=top_k, top_p=top_p
