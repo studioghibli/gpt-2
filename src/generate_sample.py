@@ -13,7 +13,7 @@ app = Flask(__name__)
 
 @app.route('/unconditional-sample', methods=['GET', 'POST'])
 def unconditional_sample(
-    model_name='117M',
+    model_name,
     length,
     temperature=1,
     top_k=0
@@ -58,7 +58,7 @@ def unconditional_sample(
 @app.route('/conditional-sample', methods=['GET', 'POST'])
 def conditional_sample(
     prompt,
-    model_name='117M',
+    model_name,
     length,
     temperature=1,
     top_k=0,
