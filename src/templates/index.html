@@ -68,14 +68,14 @@
                     console.log('GET response as JSON:');
                     console.log(headline_json); // display text in console
 
-                    fetch('/conditional-sample/' + headline_json.text + '/' + topic.id + '_articles/100/25')
+                    fetch('/conditional-sample/' + headline_json.text + '/' + topic.id + '_articles/250/40')
                       .then(function (response) {
                           return response.json();
                       }).then(function (article_json) {
                           console.log('GET response as JSON:');
                           console.log(article_json); // display text in console
 
-                          d3.select("h1").html(headline_json.text);
+                          d3.select("h2").html(headline_json.text);
                           d3.select("article").html(article_json.text);
                       });
                 });
