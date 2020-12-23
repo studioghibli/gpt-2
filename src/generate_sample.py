@@ -50,7 +50,7 @@ def unconditional_sample(
                 
         out = sess.run(output)
         text = enc.decode(out[0])
-        return jsonify({'text':text})
+        return jsonify({ 'text':text; 'param-len':length })
 
 
 @app.route('/conditional-sample', methods=['GET', 'POST'])

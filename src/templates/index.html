@@ -52,24 +52,24 @@
         <script>
           function makeButton(topic, label) {
             d3.select(topic).on("click", function(d) {
-              fetch('/unconditional-sample?model_name=' + topic.id + '_headlines&length=10')
+              fetch('/unconditional-sample?model_name=' + topic.id + '_headlines&length=10&top_k=10')
                 .then(function (response) {
                     return response.json();
                 }).then(function (headline_json) {
                     console.log('GET response as JSON:');
                     console.log(headline_json); // display text in console
-                });
+                    
+                    fetch('/conditional-sample?prompt=' + headline_json.text + '&model_name=' + topic.id + '_articles&length=100&top_k=25')
+                      .then(function (response) {
+                          return response.json();
+                      }).then(function (article_json) {
+                          console.log('GET response as JSON:');
+                          console.log(article_json); // display text in console
 
-              fetch('/conditional-sample?prompt=' + headline_json.text + '&model_name=' + topic.id + '_articles&length=100')
-                .then(function (response) {
-                    return response.json();
-                }).then(function (article_json) {
-                    console.log('GET response as JSON:');
-                    console.log(article_json); // display text in console
+                          d3.select("h1").html(headline_json.text);
+                          d3.select("article").html(article_json.text);
+                      });
                 });
-              
-              d3.select("h1").html(headline_json.text);
-              d3.select("article").html(article_json.text);
             });
           }
 
