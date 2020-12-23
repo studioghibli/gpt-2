@@ -52,13 +52,16 @@
         <script>
           function makeButton(topic, label) {
             d3.select(topic).on("click", function(d) {
+              d3.select("h1").html("Loading...")
+              d3.select("article").html("Your article is being generated. Come back in 5 minutes!")
+
               fetch('/unconditional-sample?model_name=' + topic.id + '_headlines&length=10&top_k=10')
                 .then(function (response) {
                     return response.json();
                 }).then(function (headline_json) {
                     console.log('GET response as JSON:');
                     console.log(headline_json); // display text in console
-                    
+
                     fetch('/conditional-sample?prompt=' + headline_json.text + '&model_name=' + topic.id + '_articles&length=100&top_k=25')
                       .then(function (response) {
                           return response.json();

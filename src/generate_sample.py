@@ -23,6 +23,8 @@ def unconditional_sample(
     batch_size = 1
     top_p = 0.0
 
+    x = type(length)
+
     enc = encoder.get_encoder(model_name)
     hparams = model.default_hparams()
     with open(os.path.join('models', model_name, 'hparams.json')) as f:
@@ -50,7 +52,7 @@ def unconditional_sample(
                 
         out = sess.run(output)
         text = enc.decode(out[0])
-        return jsonify({ 'text':text, 'param-len':length })
+        return jsonify({ 'text':text, 'param-len':length, 'type':x })
 
 
 @app.route('/conditional-sample', methods=['GET', 'POST'])
