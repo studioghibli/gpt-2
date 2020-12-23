@@ -7,7 +7,6 @@ For this project, we wanted to see how easy it would be to generate convincing f
 In the root folder, run:
 ```
 pip install -r requirements.txt
-pip install flask
 ```
 We use Python version 3.7.x to run this project.
 
@@ -20,12 +19,14 @@ python -m http.server
 
 ## Run User Interface for Generating New Samples
 
-Download models.zip, decompress it, and place the decompressed folder under src. In src, run:
+Download [models.zip](https://drive.google.com/drive/folders/13xBv1TngYsshuoaZ2vwv1VmCwclc46zx?usp=sharing), decompress it, and place the decompressed folder under src. In src, run:
 ```
 export FLASK_APP=generate_sample.py
 export FLASK_ENV=development
 flask run
 ```
+
+Navigate to http://localhost:5000/test to interact with the user interface.
 
 # Reference
 
