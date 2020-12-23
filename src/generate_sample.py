@@ -8,7 +8,7 @@ import tensorflow as tf
 
 import model, sample, encoder
 
-from flask import Flask, request
+from flask import Flask, jsonify, request, render_template
 app = Flask(__name__)
 
 @app.route('/unconditional-sample', methods=['GET', 'POST'])
@@ -19,6 +19,7 @@ def unconditional_sample(
     top_k=0
 ):
     seed = None
+    nsamples = 1
     batch_size = 1
     top_p = 0.0
 
@@ -46,20 +47,22 @@ def unconditional_sample(
         saver = tf.train.Saver()
         ckpt = tf.train.latest_checkpoint(os.path.join('models', model_name))
         saver.restore(sess, ckpt)
-
+                
         out = sess.run(output)
-        return enc.decode(out[0])
+        text = enc.decode(out[0])
+        return jsonify({'text':text})
+
 
 @app.route('/conditional-sample', methods=['GET', 'POST'])
 def conditional_sample(
     prompt,
     model_name='117M',
+    length = None,
     temperature=1,
     top_k=0,
 ):
     seed = None
     batch_size = 1
-    length = None
     top_p = 0.0
 
     if batch_size is None:
@@ -95,4 +98,9 @@ def conditional_sample(
         out = sess.run(output, feed_dict={
             context: [context_tokens for _ in range(batch_size)]
         })[:, len(context_tokens):]
-        return = enc.decode(out[0])
+        text = enc.decode(out[0])
+        return jsonify({'text':text})
+
+@app.route('/test')
+def test_page():
+    return render_template('index.html')

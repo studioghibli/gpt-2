@@ -22,7 +22,7 @@ python -m http.server
 
 Download models.zip, decompress it, and place the decompressed folder under src. In src, run:
 ```
-export FLASK_APP=generate_samples.py
+export FLASK_APP=generate_sample.py
 export FLASK_ENV=development
 flask run
 ```
