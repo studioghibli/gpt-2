@@ -61,18 +61,18 @@
               d3.select("h2").html("Loading...")
               d3.select("article").html("Your article is being generated. Come back in 5 minutes!")
 
-              fetch('/unconditional-sample/' + topic.id + '_headlines/15/5')
+              fetch('/unconditional-sample/' + topic.id + '-headlines/15/5')
                 .then(function (response) {
                     return response.json();
                 }).then(function (headline_json) {
-                    console.log('GET response as JSON:');
+                    console.log('GET headline as JSON:');
                     console.log(headline_json); // display text in console
 
-                    fetch('/conditional-sample/' + headline_json.text + '/' + topic.id + '_articles/250/40')
+                    fetch('/conditional-sample/' + headline_json.text + '/' + topic.id + '-articles/250/40')
                       .then(function (response) {
                           return response.json();
                       }).then(function (article_json) {
-                          console.log('GET response as JSON:');
+                          console.log('GET article as JSON:');
                           console.log(article_json); // display text in console
 
                           d3.select("h2").html(headline_json.text);

@@ -19,14 +19,13 @@ python -m http.server
 
 ## Run User Interface for Generating New Samples
 
-Download [models.zip](https://drive.google.com/drive/folders/13xBv1TngYsshuoaZ2vwv1VmCwclc46zx?usp=sharing), decompress it, and place the decompressed folder under src. In src, run:
+If you would like to generate articles in every topic, you can download [all_models.zip](https://drive.google.com/drive/folders/13xBv1TngYsshuoaZ2vwv1VmCwclc46zx?usp=sharing). If you would only like to explore one topic, you can download [one of blm_models, covid_models, or election_models](https://drive.google.com/drive/folders/13xBv1TngYsshuoaZ2vwv1VmCwclc46zx?usp=sharing). Once you have downloaded one of these zip files, decompress the zip, rename the folder to "models", and place the folder under src. In src, run:
 ```
 export FLASK_APP=generate_sample.py
 export FLASK_ENV=development
 flask run
 ```
-
-Navigate to http://localhost:5000/test to interact with the user interface.
+Finally, navigate to http://localhost:5000/test to interact with the user interface.
 
 # Reference
 
