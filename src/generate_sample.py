@@ -70,7 +70,6 @@ def conditional_sample(
 
     if batch_size is None:
         batch_size = 1
-    assert nsamples % batch_size == 0
 
     enc = encoder.get_encoder(model_name)
     hparams = model.default_hparams()
