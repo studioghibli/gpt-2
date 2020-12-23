@@ -19,7 +19,7 @@ python -m http.server
 
 ## Run User Interface for Generating New Samples
 
-If you would like to generate articles in every topic, you can download all_models.zip. Downloading all_models.zip can a long time, so if you would only like to explore one topic, you can download one of blm_models.zip, covid_models.zip, or election_models.zip. All of these zip files are can be accessed [here](https://drive.google.com/drive/folders/13xBv1TngYsshuoaZ2vwv1VmCwclc46zx?usp=sharing)). Once you have downloaded one of these zip files, decompress the zip, rename the folder to "models", and place the folder under src. In src, run:
+If you would like to generate articles in every topic, you can download all_models.zip. Downloading all_models.zip can a long time, so if you would only like to explore one topic, you can download one of blm_models.zip, covid_models.zip, or election_models.zip. All of these zip files are can be accessed [here](https://drive.google.com/drive/folders/13xBv1TngYsshuoaZ2vwv1VmCwclc46zx?usp=sharing). Once you have downloaded one of these zip files, decompress the zip, rename the folder to "models", and place the folder under src. In src, run:
 ```
 export FLASK_APP=generate_sample.py
 export FLASK_ENV=development
