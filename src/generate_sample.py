@@ -11,19 +11,20 @@ import model, sample, encoder
 from flask import Flask, jsonify, request, render_template
 app = Flask(__name__)
 
-@app.route('/unconditional-sample', methods=['GET', 'POST'])
+@app.route('/unconditional-sample/<model_name>/<length>/<top_k>', methods=['GET', 'POST'])
 def unconditional_sample(
     model_name,
     length,
-    temperature=1,
     top_k=0
 ):
     seed = None
     nsamples = 1
     batch_size = 1
+    temperature = 1
     top_p = 0.0
 
-    x = type(length)
+    length = int(length)
+    top_k = int(top_k)
 
     enc = encoder.get_encoder(model_name)
     hparams = model.default_hparams()
@@ -52,19 +53,19 @@ def unconditional_sample(
                 
         out = sess.run(output)
         text = enc.decode(out[0])
-        return jsonify({ 'text':text, 'param-len':length, 'type':str(x) })
+        return jsonify({ 'text':text, 'param-len':length })
 
 
-@app.route('/conditional-sample', methods=['GET', 'POST'])
+@app.route('/conditional-sample/<prompt>/<model_name>/<length>/<top_k>', methods=['GET', 'POST'])
 def conditional_sample(
     prompt,
     model_name,
     length,
-    temperature=1,
     top_k=0,
 ):
     seed = None
     batch_size = 1
+    temperature = 1
     top_p = 0.0
 
     if batch_size is None:
