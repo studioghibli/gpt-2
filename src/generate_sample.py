@@ -67,6 +67,9 @@ def conditional_sample(
     batch_size = 1
     temperature = 1
     top_p = 0.0
+    
+    length = int(length)
+    top_k = int(top_k)
 
     if batch_size is None:
         batch_size = 1
