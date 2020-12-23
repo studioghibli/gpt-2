@@ -12,14 +12,14 @@ We use Python version 3.7.x to run this project.
 
 ## Run User Interface for Pre-Generated Samples
 
-To generate random samples that we already created, go into fast-ui and run:
+To generate random samples that we already created, go into gpt-2/ui and run:
 ```
 python -m http.server
 ```
 
 ## Run User Interface for Generating New Samples
 
-If you would like to generate articles in every topic, you can download all_models.zip. Downloading all_models.zip can a long time, so if you would only like to explore one topic, you can download one of blm_models.zip, covid_models.zip, or election_models.zip. All of these zip files are can be accessed [here](https://drive.google.com/drive/folders/13xBv1TngYsshuoaZ2vwv1VmCwclc46zx?usp=sharing). Once you have downloaded one of these zip files, decompress the zip, rename the folder to "models", and place the folder under src. In src, run:
+If you would like to generate articles in every topic, you can download all_models.zip. Downloading all_models.zip can a long time, so if you would only like to explore one topic, you can download one of blm_models.zip, covid_models.zip, or election_models.zip. All of these zip files can be accessed [here](https://drive.google.com/drive/folders/13xBv1TngYsshuoaZ2vwv1VmCwclc46zx?usp=sharing). Once you have downloaded one of these zip files, decompress the zip, rename the folder to "models", and place the folder under gpt-2/src. In gpt-2/src, run:
 ```
 export FLASK_APP=generate_sample.py
 export FLASK_ENV=development
